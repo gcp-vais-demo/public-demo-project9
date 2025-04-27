@@ -1,0 +1,22 @@
+{
+  "app_name": "Demo Application",
+  "version": "1.0.0",
+  "environment": "development",
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "name": "demo_db",
+    "user": "demo_user"
+  },
+  "api_endpoints": {
+    "transactions": "/api/v1/transactions",
+    "users": "/api/v1/users",
+    "auth": "/api/v1/auth"
+  },
+  "features": {
+    "user_management": true,
+    "transaction_processing": true,
+    "reporting": false,
+    "notifications": true
+  }
+}
